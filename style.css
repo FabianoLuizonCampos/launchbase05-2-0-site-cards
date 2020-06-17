@@ -1,0 +1,160 @@
+@import "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap"; 
+
+:root {
+    --background-color: #282036;
+    --color-green: #5afa7b;
+    --color-font: white;
+    --color-div: #333;
+}
+
+* {
+    border: 0;
+    box-sizing: border-box;   
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: var(--background-color);
+    font-family: 'Source Sans Pro', sans-serif; 
+    
+    color: var(--color-font);
+}
+
+header {
+    padding: 32px;
+    border-bottom: 1px solid var(--color-div);
+    background: rgba(0, 0, 0, 0.1);    
+}
+
+.links {
+    text-align: center;
+}
+
+.links a {
+    margin: 0px 16px;
+    color: var(--color-font);
+    text-decoration: none;
+    
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.links a:hover {
+    color: var(--color-green);  
+    transition: color 200ms;  
+}
+
+#wrapper {
+    text-align: center; 
+    padding: 32px;  
+}
+
+#wrapper img{
+    border-radius: 50%;
+    border: 5px solid var(--color-green);
+    margin-bottom: 32px;
+
+    height: 350px;
+}
+
+#wrapper h1 {
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: bold;
+}
+
+#wrapper h2, h3 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+    margin-top: 8px;
+}
+
+#wrapper p {
+    max-width: 700px;
+    margin: 32px auto;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+#links-footer a {
+    border-bottom: 1px solid var(--color-green);
+}
+
+/* ---------- CARDS ----------- */
+.cards {
+    max-width: 800px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    background-color: #7159c1;
+}
+
+.card__image-container img {
+    width: 100%;
+}
+
+.card__content,
+.card__info {
+    padding: 24px;
+}
+
+.card__info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card__price {
+    background-color: #7159c1;
+    filter: brightness(90%);
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* ---------- MODAL OVERLAY ----------- */
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal {
+    background-color: white;
+    height: 90%;
+    width: 90%;
+    margin: 5vh auto;
+    position: relative;
+}
+
+.modal .close-modal {
+    color: black;
+    position: absolute;
+    top: 8px; 
+    right: 8px;   
+    cursor: pointer;
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+iframe {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 5vh;
+}
