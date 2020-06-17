@@ -1,5 +1,31 @@
 <h1 align="center">
-    <img src="https://instagram.fopo2-2.fna.fbcdn.net/v/t51.2885-19/s150x150/104418277_271304354077162_4294341393702238724_n.jpg?_nc_ht=instagram.fopo2-2.fna.fbcdn.net&_nc_ohc=W2ZYUQ2iOy0AX8SMhhJ&oh=0e61ab8b522af186800a05fbdf232bb0&oe=5F11EF7F">
+    <img height=150px src="foto-logo.png">
 </h1>
 
-# Teste do Markdown
+<h2 align="center">
+    Fabiano Luizon Campos
+</h2>
+
+<h3 align="center">
+    Software Developer
+</h3>
+
+---
+
+https://github.com/FabianoLuizonCampos/launchbase05-2-0-site-cards.git
+
+---
+
+## 👾 About
+**WIP !!!** This is a first challenge building a website with video cards !!!
+
+## 💻 Languages Used
+- HTML
+- CSS
+- JavaScript
+
+## 📇 Contacts
+- <a href="https://github.com/FabianoLuizonCampos" target="_blank">Github</a>
+- <a href="https://www.linkedin.com/in/fabianoluizoncampos" target="_blank">LinkedIn</a>
+- <a href="mailto:fabianoluizoncampos@gmail.com" target="_blank">Email</a>
+
